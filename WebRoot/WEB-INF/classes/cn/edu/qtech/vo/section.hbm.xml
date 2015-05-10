@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="cn.edu.qtech.vo.Section" table="section">
+    <id name="id" column="id" type="long">
+      <generator class="increment"/>
+    </id>
+    <property name="title" column="title" type="string"></property>
+    <property name="thumbnailId" column="thumbnail_id" type="long"></property>
+    <property name="bigPictureId" column="big_picture_id" type="long"></property>
+    <property name="category" column="category" type="int"></property>
+    <property name="createTime" column="create_time" type="java.util.Date"></property>
+    
+  </class>
+</hibernate-mapping>

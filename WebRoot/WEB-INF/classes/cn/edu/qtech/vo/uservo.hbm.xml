@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="cn.edu.qtech.vo.User" table="uservo">
+    <id name="id" column="id" type="long">
+      <generator class="increment"/>
+    </id>
+    <property name="userName" column="username" type="string"></property>
+    <property name="password" column="password" type="string"></property>
+    <property name="eMail" column="eMail" type="string"></property>
+    <property name="cellphone" column="cellphone" type="string"></property>
+    <property name="qq" column="qq" type="string"></property>
+    <property name="weibo" column="weibo" type="string"></property>
+    <property name="introduce" column="introduce" type="string"></property>
+     <property name="roleId" column="role_id" type="int"></property>
+ 	<property name="picId" column="pic_id" type="long"></property>
+  </class>
+</hibernate-mapping>
