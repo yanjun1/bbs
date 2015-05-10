@@ -1,0 +1,76 @@
+﻿/*
+[name]浅灰[/name]
+[iconbgcolor]#e2e2e2[/iconbgcolor]
+Powered by Discuz! X
+*/
+
+body { background: #E2E2E2 url(bgimg.jpg) no-repeat 50% 0; }
+#nv { background-image: url(nv.png); }
+	#nv li { background-image: url(nv_a.png) !important; }
+	#nv li.a { padding-right: 4px; background: #FFF url(nv_a.png) no-repeat 100% 100%; }
+        #nv li a:hover { background: url(nv_a.png) no-repeat 50% -66px; color: #333 !important;}
+		#nv li.a a, #nv li.a a:hover, #nv li.a a:active{ background: #EEE url(nv_a.png) no-repeat 0 -33px; color: #333 !important; }
+.ct2_a, .ct3_a { background-color: #FFF; }
+
+/* 重定义 {SPECIALBG} */
+.bmn, .bm_h, td.pls, .ad td.plc, div.exfm, .tb a, .tb_h, .ttp li.a a, div.uo a, input#addsubmit_btn, #gh .bm .bm_h, .appnew, .apphot { background-color: #FFF; }
+
+.ct2_a, .ct3_a { background-image: url(vlineb.png); }
+.tbn li.a { background: #FFF; }
+	#nv_portal.pg_portalcp .ct2_a_r, #nv_forum.pg_post .ct2_a_r { background-image: none; }
+
+/* 重定义 {SPECIALBORDER} */
+.bmn, .pg a, .pgb.a, .pg strong, .card, .card .o, div.exfm  { border-color: #EEEEEE; }
+.pg strong { background-color: #EEEEEE; }
+.pn, .tb .o, .tb .o a { background-image: url(pn.png); }
+	.pnc, a.pnc, .tb .o { border-color: #666666; }
+
+
+.ad td.pls { background-color: #EEEEEE; }
+.tl th, .tl td{padding:6px 0;border-bottom:1px solid #e8e8e8;}
+.tsm th{padding:5px 0 5px 6px;}
+.pls {border-right:1px solid #ddd;}
+
+/* 重定义字体 */
+#qmenu, .fl .bm_h h2 a, .xi1, #um .new, .topnav .new, .sch .new, .el .ec .hot em, .pll .s a.joins { color: #CA4312; }
+.pll .s a.go { color: #FFF; }
+.xi2, .xi2 a { color: #000; }
+
+/* 重定义按钮 */
+.pgs #newspecial, .pgs #newspecialtmp { float: left; background: url(pn_post.png) no-repeat 0 0; }
+#post_reply, #post_replytmp { float: left; background: url(pn_reply.png) no-repeat 0 0; }
+	#newspecial img, #newspecialtmp img, #post_reply img, #post_replytmp img { opacity: 0; filter: alpha(opacity=0); }
+.moodfm_btn { background-image: url(mood_input_btn.png) !important; }
+#create_group_btn { display: block; background: url(create_group.png) no-repeat 0 0; }
+	#create_group_btn img { opacity: 0; filter: alpha(opacity=0); }
+.el .ec .hot, .clct_list .xld .m { background-image: url(hotspot.gif); }
+.pll .s { background-image:url(polljoins.gif); }
+
+/* 重定义广播 */
+#uhd, #flw_header .bar, .flw_replybox { background-color: #F4F9F9; }
+.pg_follow #fastpostsubmit { background-image: url(flw_post.png); }
+.flw_replybox .pnc { background-image: url(pn_reply.png); }
+.flw_replybox td table .pnc { background-image: url(pn_rt.png); }
+#flw_post_extra .sec { background-color: #F4F9F9; }
+
+/* 重定义版块快速跳转和侧边导航 */
+#fjump_menu li.a a { background-color: #EBF5F6; }
+.bdl, .bdl dt, .bdl dd.bdl_a a { border-color: #C2D5E3; background-color: #EBF5F6; }
+	.bdl dt { background-image: url(titlebg_sd.png); }
+.bdl dd.bdl_a a { color: #aaa; }
+
+
+/* 二级导航 */
+.a_erji { border: solid #e5edf2;border-width: 0 1px; background: #fff; text-align:center;}
+.pg_index #pt .y { height: 28px; overflow: hidden; }
+.mlt li .cl { height: 18px; overflow: hidden; }
+.mlt li .c { height: auto!important; }
+#pp {zoom:1;}
+#dzf{margin-bottom: -1px;padding:10px 0;border: solid #CDCDCD;border-width: 0 0 1px;background: #fff;line-height:160%}
+#dzf p{width:33%;text-indent:70px;background:url(/data/attachment/album/201206/07/172512dxu9e6x9ls6xdzde.png) no-repeat 10px 2px}
+.dzfbl{border-left:1px solid #FFF}
+.dzfbr{border-right:1px solid #DDD}
+#dzf em{display:block;color:#D3DFDF}
+#dzf .xg2{color:#666}
+#dzf em a{color:#369}
+#scbar td { padding: 0 !important; }
